@@ -1,5 +1,24 @@
 [
   {
+    "name": "Bug Under Investigation Assets",
+    "samples": [
+      {
+        "name": "Smooth, PlayReady, Dolby 5.1 - not working",
+        "uri": "https://vod001-gb-dash1-e2e-ll.cdn.skycdp.com/skyplayer/VCD/PR/viacom.cc.com/TITL0000000031066037/ec53862b-0b9b-4595-bbad-02157fb85eae/encrypted/catalogue.ism/Manifest",
+        "drm_scheme": "playready",
+        "drm_license_uri": "https://uat-p.sky.com/drm/playready/acquirelicense?bt=38-v-EIAIan_plLi_OW1As6pUwauNLet4bkXfIsJ1reWrcsOLnEHcTR_wzjK647NIFadnZKtwSYKhRjEnWHuAjHEWD0knK6dxduvHrU4Aq4ofWzhlX0umJMjrUp9Do-1Ihsabst5ME1Fpm6V4QJHP93KIXpL0Tw1nHXnfzuu8UzQV9T_4fFi5kM2FQPogHM3geTJ_RcV3Di9Vc4T1kC-1FkNtHndKmGN3esBvfcr9pEAfJ8SWLYHjgg-5My-Ms=",
+        "drm_force_default_license_uri": true
+      },
+      {
+        "name": "DASH, PlayReady, Dolby 5.1 - working",
+        "uri": "https://vod001-gb-dash1-e2e-ll.cdn.skycdp.com/skyplayer/VCD/DA-CE/viacom.cc.com/TITL0000000031066037/5865d685-edbb-4856-889c-5daef5fdb1ca/encrypted/manifest.mpd",
+        "drm_scheme": "playready",
+        "drm_license_uri": "https://uat-p.sky.com/drm/playready/acquirelicense?bt=57-_A7TFnHsLFSpTknZGADWOej1MwDknytqF69MN1nfNvX0zwTUup-XzPiMYI65rHXgQf_G6bv2cNGgDvsDarS8pAgFOxe_r2Drsccs8GpkDuA_zuICCpY4CbIxcSpQJnoMa63sgejAlfOwj8-dl_HxW-yetQUZaRj7PKKndg-UV4t04qXQteKkPTgMDP2GTGjGc-mafYL9b0cYGtMytKgtZeYQIONqngrf_9Q6V234PiQFHTQZe4ZPYsBUnhizGpu257aEYYr3t3DUTuM_b3fDseQ6jSvg2FGz-W3oHfNt25IN8J8zSQ==",
+        "drm_force_default_license_uri": true
+      }
+    ]
+  },
+  {
     "name": "Clear DASH",
     "samples": [
       {
